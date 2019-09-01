@@ -13,18 +13,18 @@ function setTime() {
         if (minutes == 0) {
             hours--;
             minutes = 59;
-    
-       if(seconds==0 && minutes==0 && hours==0){
-           stop();
-       }  
-        
-            
+
+            if (seconds == 0 && minutes == 0 && hours == 0) {
+                stop();
+            }
+
+
         }
         else {
 
             minutes--;
             seconds = 59;
-            
+
         }
     }
     else {
@@ -36,7 +36,7 @@ function setTime() {
     // hours = document.querySelector("#hours").value;
     // minutes = document.querySelector("#minutes").value;
     // seconds = document.querySelector("#seconds").value;
-    console.log(hours+":"+minutes + ":" + seconds);
+    console.log(hours + ":" + minutes + ":" + seconds);
 }
 function start() {
     if (isRunning === false) {

@@ -4,38 +4,36 @@ body {
     background-image: url(image3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
-h3{
+
+h3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-     font-size: 5em;
-    margin-top: 2.5em; 
-    
-} 
+    font-size: 5em;
+    margin-top: 2.5em;
+}
 
-#time{
+#time {
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: 3em;
 }
 
-input{
-    border:1px solid transparent;
-    background-color: transparent; 
-    
+input {
+    border: 1px solid transparent;
+    background-color: transparent;
 }
 
-#btn{
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-margin: 25px 13px;
+#btn {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px 13px;
 }
 
-button{
+button {
     text-align: center;
     border: 1px solid #87252e;
     border-radius: 15px;
@@ -47,12 +45,10 @@ button{
     background-color: #8e8588;
     color: #87252e;
     font-size: 1em;
-}  
-   
-button:hover{
+}
+
+button:hover {
     background-color: #87252e;
-    color:  #8e8588;
+    color: #8e8588;
     cursor: pointer;
-}   
- 
- 
+}
